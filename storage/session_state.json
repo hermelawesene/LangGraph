@@ -1,0 +1,128 @@
+{
+  "user_input": "Hi, my email is user@example.com \u2014 please confirm.",
+  "current_step": "end",
+  "llm_response": "Your email address is user@example.com",
+  "tool_output": "Valid email",
+  "human_feedback": null,
+  "approved": false,
+  "attempts": 2,
+  "execution_log": [
+    {
+      "node": "interpret_input",
+      "timestamp": 1767168355.9896092,
+      "details": {
+        "extracted": "Your email address is user@example.com \u2014 please confirm."
+      }
+    },
+    {
+      "node": "interpret_input",
+      "timestamp": 1767168421.1606138,
+      "details": {
+        "extracted": "Hi, my email is user@example.com \u2014 please confirm."
+      }
+    },
+    {
+      "node": "validate_email_tool",
+      "timestamp": 1767168421.166645,
+      "details": {
+        "is_valid": true,
+        "message": "Valid email"
+      }
+    },
+    {
+      "node": "human_review",
+      "timestamp": 1767168663.4878776,
+      "details": {
+        "feedback": "n",
+        "approved": false
+      }
+    },
+    {
+      "node": "interpret_input",
+      "timestamp": 1767168672.0128245,
+      "details": {
+        "extracted": "Hi, my email is user@example.com \u2014 please confirm."
+      }
+    },
+    {
+      "node": "validate_email_tool",
+      "timestamp": 1767168672.0165865,
+      "details": {
+        "is_valid": true,
+        "message": "Valid email"
+      }
+    },
+    {
+      "node": "human_review",
+      "timestamp": 1767168849.780923,
+      "details": {
+        "feedback": "y",
+        "approved": true
+      }
+    },
+    {
+      "node": "finalize",
+      "timestamp": 1767168849.7844465,
+      "details": {
+        "final_email": "Hi, my email is user@example.com \u2014 please confirm.",
+        "status": "approved",
+        "attempts": 1
+      }
+    },
+    {
+      "node": "interpret_input",
+      "timestamp": 1767169147.7867575,
+      "details": {
+        "extracted": "Your email address is user@example.com"
+      }
+    },
+    {
+      "node": "validate_email_tool",
+      "timestamp": 1767169147.7893326,
+      "details": {
+        "is_valid": true,
+        "message": "Valid email"
+      }
+    },
+    {
+      "node": "human_review",
+      "timestamp": 1767169151.7872012,
+      "details": {
+        "feedback": "n",
+        "approved": false
+      }
+    },
+    {
+      "node": "interpret_input",
+      "timestamp": 1767169152.218806,
+      "details": {
+        "extracted": "Your email address is user@example.com"
+      }
+    },
+    {
+      "node": "validate_email_tool",
+      "timestamp": 1767169152.218806,
+      "details": {
+        "is_valid": true,
+        "message": "Valid email"
+      }
+    },
+    {
+      "node": "human_review",
+      "timestamp": 1767169171.188605,
+      "details": {
+        "feedback": "n",
+        "approved": false
+      }
+    },
+    {
+      "node": "finalize",
+      "timestamp": 1767169171.1923854,
+      "details": {
+        "final_email": "Your email address is user@example.com",
+        "status": "rejected",
+        "attempts": 2
+      }
+    }
+  ]
+}
