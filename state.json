@@ -1,0 +1,9 @@
+{
+  "user_input": "",
+  "llm_response": "",
+  "tool_output": "",
+  "approved": false,
+  "attempts": 0,
+  "current_step": "interpret_input",
+  "execution_log": []
+}
