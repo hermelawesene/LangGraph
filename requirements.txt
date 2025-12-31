@@ -1,0 +1,4 @@
+langgraph==0.1.18
+langchain
+langchain-community
+python-dotenv
