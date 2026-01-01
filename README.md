@@ -7,6 +7,25 @@
 ## Run
 ```bash
 python main.py
+```
+
+# 📧 Email Extraction Workflow — Quick Start
+
+A hybrid AI + human-in-the-loop system for robust email extraction.
+
+---
+
+## 🚀 Run the Workflow
+
+### 1. CLI (Terminal)
+```powershell
+# Activate venv & run
+(.venv311) PS> python main.py
+
+# Enter message when prompted
+📧 Email Extraction & Validation Workflow
+Enter your message: Hi, contact me at user@example.com
+```
 
 ## ⚖️ Static Script vs LangGraph Workflow
 
