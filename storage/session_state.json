@@ -1,29 +1,213 @@
 {
-  "user_input": "Hi, my email is user@example.com \u2014 please confirm.",
+  "user_input": "her@jkgdfjk.com tudghisa  jasdgsug sajdg",
   "current_step": "end",
-  "llm_response": "Your email address is user@example.com",
+  "llm_response": "her@jkgdfjk.com",
   "tool_output": "Valid email",
   "human_feedback": null,
-  "approved": false,
-  "attempts": 2,
+  "approved": true,
+  "attempts": 0,
   "execution_log": [
     {
       "node": "interpret_input",
-      "timestamp": 1767168355.9896092,
+      "timestamp": 1767250998.4828143,
       "details": {
-        "extracted": "Your email address is user@example.com \u2014 please confirm."
-      }
-    },
-    {
-      "node": "interpret_input",
-      "timestamp": 1767168421.1606138,
-      "details": {
-        "extracted": "Hi, my email is user@example.com \u2014 please confirm."
+        "extracted": "yilkalwale9@gmail.com"
       }
     },
     {
       "node": "validate_email_tool",
-      "timestamp": 1767168421.166645,
+      "timestamp": 1767250998.4848063,
+      "details": {
+        "is_valid": true,
+        "message": "Valid email"
+      }
+    },
+    {
+      "node": "human_review_requested",
+      "timestamp": 1767250998.4848063,
+      "details": {
+        "email": "yilkalwale9@gmail.com",
+        "validation": "Valid email"
+      }
+    },
+    {
+      "node": "interpret_input",
+      "timestamp": 1767250999.3851142,
+      "details": {
+        "extracted": "yilkalwale9@gmail.com"
+      }
+    },
+    {
+      "node": "validate_email_tool",
+      "timestamp": 1767250999.3861156,
+      "details": {
+        "is_valid": true,
+        "message": "Valid email"
+      }
+    },
+    {
+      "node": "human_review_requested",
+      "timestamp": 1767250999.3861156,
+      "details": {
+        "email": "yilkalwale9@gmail.com",
+        "validation": "Valid email"
+      }
+    },
+    {
+      "node": "interpret_input",
+      "timestamp": 1767251001.2340922,
+      "details": {
+        "extracted": "yilkalwale9@gmail.com"
+      }
+    },
+    {
+      "node": "validate_email_tool",
+      "timestamp": 1767251001.2340922,
+      "details": {
+        "is_valid": true,
+        "message": "Valid email"
+      }
+    },
+    {
+      "node": "human_review_requested",
+      "timestamp": 1767251001.249657,
+      "details": {
+        "email": "yilkalwale9@gmail.com",
+        "validation": "Valid email"
+      }
+    },
+    {
+      "node": "interpret_input",
+      "timestamp": 1767251002.232341,
+      "details": {
+        "extracted": "yilkalwale9@gmail.com"
+      }
+    },
+    {
+      "node": "validate_email_tool",
+      "timestamp": 1767251002.232341,
+      "details": {
+        "is_valid": true,
+        "message": "Valid email"
+      }
+    },
+    {
+      "node": "human_review_requested",
+      "timestamp": 1767251002.232341,
+      "details": {
+        "email": "yilkalwale9@gmail.com",
+        "validation": "Valid email"
+      }
+    },
+    {
+      "node": "interpret_input",
+      "timestamp": 1767251003.2159555,
+      "details": {
+        "extracted": "yilkalwale9@gmail.com"
+      }
+    },
+    {
+      "node": "validate_email_tool",
+      "timestamp": 1767251003.2299328,
+      "details": {
+        "is_valid": true,
+        "message": "Valid email"
+      }
+    },
+    {
+      "node": "human_review_requested",
+      "timestamp": 1767251003.2319455,
+      "details": {
+        "email": "yilkalwale9@gmail.com",
+        "validation": "Valid email"
+      }
+    },
+    {
+      "node": "interpret_input",
+      "timestamp": 1767251004.796807,
+      "details": {
+        "extracted": "yilkalwale9@gmail.com"
+      }
+    },
+    {
+      "node": "validate_email_tool",
+      "timestamp": 1767251004.796807,
+      "details": {
+        "is_valid": true,
+        "message": "Valid email"
+      }
+    },
+    {
+      "node": "human_review_requested",
+      "timestamp": 1767251004.796807,
+      "details": {
+        "email": "yilkalwale9@gmail.com",
+        "validation": "Valid email"
+      }
+    },
+    {
+      "node": "interpret_input",
+      "timestamp": 1767251004.9462473,
+      "details": {
+        "extracted": "none"
+      }
+    },
+    {
+      "node": "validate_email_tool",
+      "timestamp": 1767251004.9629135,
+      "details": {
+        "is_valid": false,
+        "message": "Invalid email format"
+      }
+    },
+    {
+      "node": "human_review_requested",
+      "timestamp": 1767251004.9629135,
+      "details": {
+        "email": "none",
+        "validation": "Invalid email format"
+      }
+    },
+    {
+      "node": "interpret_input",
+      "timestamp": 1767251005.1131775,
+      "details": {
+        "extracted": "none"
+      }
+    },
+    {
+      "node": "validate_email_tool",
+      "timestamp": 1767251005.1289206,
+      "details": {
+        "is_valid": false,
+        "message": "Invalid email format"
+      }
+    },
+    {
+      "node": "human_review_requested",
+      "timestamp": 1767251005.1299305,
+      "details": {
+        "email": "none",
+        "validation": "Invalid email format"
+      }
+    },
+    {
+      "node": "interpret_input",
+      "timestamp": 1767251005.2794607,
+      "details": {
+        "extracted": "none"
+      }
+    },
+    {
+      "node": "interpret_input",
+      "timestamp": 1767251190.0743196,
+      "details": {
+        "extracted": "her@jkgdfjk.com"
+      }
+    },
+    {
+      "node": "validate_email_tool",
+      "timestamp": 1767251190.078697,
       "details": {
         "is_valid": true,
         "message": "Valid email"
@@ -31,30 +215,7 @@
     },
     {
       "node": "human_review",
-      "timestamp": 1767168663.4878776,
-      "details": {
-        "feedback": "n",
-        "approved": false
-      }
-    },
-    {
-      "node": "interpret_input",
-      "timestamp": 1767168672.0128245,
-      "details": {
-        "extracted": "Hi, my email is user@example.com \u2014 please confirm."
-      }
-    },
-    {
-      "node": "validate_email_tool",
-      "timestamp": 1767168672.0165865,
-      "details": {
-        "is_valid": true,
-        "message": "Valid email"
-      }
-    },
-    {
-      "node": "human_review",
-      "timestamp": 1767168849.780923,
+      "timestamp": 1767251195.9993587,
       "details": {
         "feedback": "y",
         "approved": true
@@ -62,66 +223,11 @@
     },
     {
       "node": "finalize",
-      "timestamp": 1767168849.7844465,
+      "timestamp": 1767251196.0053556,
       "details": {
-        "final_email": "Hi, my email is user@example.com \u2014 please confirm.",
+        "final_email": "her@jkgdfjk.com",
         "status": "approved",
-        "attempts": 1
-      }
-    },
-    {
-      "node": "interpret_input",
-      "timestamp": 1767169147.7867575,
-      "details": {
-        "extracted": "Your email address is user@example.com"
-      }
-    },
-    {
-      "node": "validate_email_tool",
-      "timestamp": 1767169147.7893326,
-      "details": {
-        "is_valid": true,
-        "message": "Valid email"
-      }
-    },
-    {
-      "node": "human_review",
-      "timestamp": 1767169151.7872012,
-      "details": {
-        "feedback": "n",
-        "approved": false
-      }
-    },
-    {
-      "node": "interpret_input",
-      "timestamp": 1767169152.218806,
-      "details": {
-        "extracted": "Your email address is user@example.com"
-      }
-    },
-    {
-      "node": "validate_email_tool",
-      "timestamp": 1767169152.218806,
-      "details": {
-        "is_valid": true,
-        "message": "Valid email"
-      }
-    },
-    {
-      "node": "human_review",
-      "timestamp": 1767169171.188605,
-      "details": {
-        "feedback": "n",
-        "approved": false
-      }
-    },
-    {
-      "node": "finalize",
-      "timestamp": 1767169171.1923854,
-      "details": {
-        "final_email": "Your email address is user@example.com",
-        "status": "rejected",
-        "attempts": 2
+        "attempts": 0
       }
     }
   ]

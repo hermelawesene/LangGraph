@@ -1,0 +1,19 @@
+%%{init: {'flowchart': {'curve': 'linear'}}}%%
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	interpret_input(interpret_input)
+	validate(validate)
+	human_review(human_review)
+	finalize(finalize)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> interpret_input;
+	finalize --> __end__;
+	interpret_input --> validate;
+	validate --> human_review;
+	human_review -.-> interpret_input;
+	human_review -.-> validate;
+	human_review -.-> finalize;
+	human_review -.-> __end__;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc
